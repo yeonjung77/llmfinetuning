@@ -19,7 +19,6 @@ BASE_MODEL = "meta-llama/Llama-3.1-8b-instruct"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
-# Colab에서 torch 오류 방지
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 
