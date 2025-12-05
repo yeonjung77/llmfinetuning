@@ -1,4 +1,4 @@
-# 패션 리뷰 기반 LLM 파인튜닝
+# Fashion Review Summarization LLM
 
 - Aspect 기반 상품 분석 & 자동 리뷰 요약 모델
 
